@@ -7,4 +7,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     <li>Typescript</li>
     <li>Prettier</li>
     <li>Playwright</li>
+    <li>i18n</li>
 </ul>
