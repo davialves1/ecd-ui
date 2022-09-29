@@ -1,4 +1,4 @@
-# ECD: Emission Compliance Database
+# ECD: Hello World App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
