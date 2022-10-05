@@ -1,14 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import Hello from "./pages/Hello/Hello";
-import reportWebVitals from "./reportWebVitals";
-import { i18n } from "./i18n";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import Hello from './pages/Hello/Hello';
+import reportWebVitals from './reportWebVitals';
+import { i18n, i18nConfig } from './i18n';
 
-i18n.init();
+i18n.init(i18nConfig);
 
 const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
+  document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
