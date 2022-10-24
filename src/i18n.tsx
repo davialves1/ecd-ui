@@ -1,6 +1,6 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 
 i18n
   // detect user language
@@ -15,25 +15,25 @@ export { i18n };
 
 const i18nConfig = {
   debug: true,
-  fallbackLng: 'en',
+  fallbackLng: "en",
   resources: {
     en: {
       translation: {
         hello: {
-          title: 'ECD Project',
-          welcome: 'Welcome',
-          message: 'Current language: EN',
-          button: 'Switch language to German',
+          title: "ECD Project",
+          welcome: "Welcome",
+          message: "Current language: EN 🇬🇧",
+          button: "Switch language to German",
         },
       },
     },
     de: {
       translation: {
         hello: {
-          title: 'ECD Projekt',
-          welcome: 'Willkommen',
-          message: 'Aktuelle Sprache: DE',
-          button: 'Sprache auf Englisch umstellen',
+          title: "ECD Projekt",
+          welcome: "Willkommen",
+          message: "Aktuelle Sprache: DE 🇩🇪",
+          button: "Sprache auf Englisch umstellen",
         },
       },
     },

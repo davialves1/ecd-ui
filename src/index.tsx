@@ -4,6 +4,15 @@ import './index.css';
 import Hello from './pages/Hello/Hello';
 import reportWebVitals from './reportWebVitals';
 import { i18n, i18nConfig } from './i18n';
+import '@group-ui/group-ui-react/node_modules/@group-ui/group-ui/dist/group-ui/assets/themes/vwag/vwag.css';
+import {
+  applyPolyfills,
+  defineCustomElements,
+} from '@group-ui/group-ui-react/node_modules/@group-ui/group-ui/dist/loader';
+
+applyPolyfills().then(() => {
+  defineCustomElements();
+});
 
 i18n.init(i18nConfig);
 
